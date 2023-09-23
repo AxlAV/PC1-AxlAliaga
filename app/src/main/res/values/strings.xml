@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">PC1-AxlAliaga</string>
+    <string name="ttitulo">Cálculo de Notas</string>
+
+    <!-- Definir las etiquetas de los EditText -->
+    <string name="etparcial_label">Parcial:</string>
+    <string name="etfinal_label">Final:</string>
+    <string name="etpep_label">PEP:</string>
+
+
+    <EditText
+        android:id="@+id/etparcial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/etparcial_label"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/etfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/etfinal_label" />
+
+    <EditText
+        android:id="@+id/etpep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/etpep_label" />
+
+</resources>
